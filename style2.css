@@ -1,0 +1,54 @@
+
+
+.contact {
+    background-image: url('https://i.postimg.cc/qBjy40mL/contact.jpg');
+    padding: 10px 0 200px 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#me{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#start{
+    text-align: center;
+    font-size: x-large;
+    padding: 20px 0 20px;
+}
+#con{
+    color: white;
+    text-align: center;
+    padding: 125px 0 0px;
+}
+#concon{
+    margin: 0 30px 0 0px;
+    padding: 30px;
+    line-height: 1.5em;
+}
+#conform{
+    width: 100%;
+    padding: 40px;
+    margin: 0 100px 0 0;
+}
+input{
+   
+}
+.converse{
+    height: 100px;
+    width: 300px;
+}
+#note{
+    line-height: 1.5em;
+    height: 300px;
+    width: 300px;
+}
+#message{
+    padding-bottom: 60px;
+}
+
+
+
+

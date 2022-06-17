@@ -1,0 +1,704 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #dddddd;
+    
+}
+.main1{
+    margin-top: 50px;
+    width: 100%;
+    
+}
+.about{
+    background-image: url('https://i.postimg.cc/02MhQmMK/images-7.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fdf6f6;
+}
+header{
+    padding: 0px;
+    font-size: 1.5em;
+}
+
+#navv{
+    display: flex;
+    position: fixed;
+    top: 0;
+    align-content: center;
+    justify-content: center;
+    margin-left: 0px; 
+    background-color: rgb(118, 118, 207); 
+    width: 100%; 
+}
+
+.a_tag{
+    padding: 5px 16px;
+    color: white;
+}
+.a_tag:hover{
+    background-color: crimson;
+    color: white;
+    padding: 5px 16px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.imgdiv{
+    align-items: center;
+    justify-content: center;
+}
+#my_pic {
+    width: 300px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 0px;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+.jodiv{
+    padding: 0px 10px 50px; 
+    margin-left: -150px;
+}
+.together{
+    width: 50%;
+}
+
+.hobbies {
+    margin-top: 20px;
+}
+.lists{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    justify-content: space-evenly;
+    font-size: 1.1em;
+}
+
+#names {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+#web {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+#year {
+    font-size: 1.05em;
+    margin-bottom: 10px;
+}
+.prior {
+    margin-top: 50px;
+}
+.priorl{
+    list-style: square;
+}
+.skills {
+    margin-top: 20px;
+}
+
+
+footer{
+    background-color: rgb(118, 118, 207);
+    color: white;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 30px 30px 0 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+.fa {
+    
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+  .fa-instagram {
+    color: white;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+  .icon{
+      display: flex;
+      justify-content: space-around;
+  }
+#im{
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+.button{
+    padding: 15px;
+    font-size: larger;
+    border-radius: 10px;
+    margin-left: 600px;
+    background-color: crimson;
+    color: #dddddd;
+    border: none;
+}
+
+.button a{
+    background-color: crimson;
+    color: #dddddd;
+ }
+ 
+    
+                             /*contact me page*/
+.contact {
+    background-image: url('https://i.postimg.cc/qBjy40mL/contact.jpg');
+    padding: 10px 0 200px 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main4{
+    width: 100%;
+}
+#me{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 25px 0 80px;
+}
+#start{
+    text-align: center;
+    padding: 20px 0 0 0px;
+    font-size: xx-large;
+}
+   
+#con{
+    color: white;
+    text-align: center;
+    padding: 125px 0 0px;
+}
+#concon{
+   
+    line-height: 1.5em;
+}
+#messcon{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 3px solid rgb(118, 118, 207);
+    background-color: #dddddd;
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: 0;
+}
+#conform{
+    width: 100%;
+    padding: 10px 0 0 0;
+    margin: 0 10px 0 0;
+}
+#inp_con{
+   width: 100%;
+   border: none;
+   border-bottom: 3px solid rgb(118, 118, 207);
+   background-color: #dddddd;
+   padding: 12px 20px;
+   margin: 8px 0;
+   outline: 0;
+}
+#subcon{
+    border-radius: 5px;
+    font-size: larger;
+    padding: 10px 40px;
+    background-color: rgb(118, 118, 207);
+    color: white;
+    border: none;
+    margin: 8px 0;
+}
+.converse{
+    height: 200px;
+    width: 500px;
+}
+#note{
+    line-height: 1.5em;
+    height: 300px;
+    width: 500px;
+}
+
+
+                                     /*Log In page*/
+#please{
+    text-align: center;
+    margin-top: 20px;
+}
+.main2{
+    width: 100%;
+}
+#log{
+    background-color: rgb(5, 163, 190);
+    padding: 0px 0 200px 0;
+    border-radius: 0 0 50px 50px;
+}
+#logform{
+    padding: 30px 10px;
+    margin-left: 470px;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 500px;
+    
+}
+#Log_inp{
+    display: block; 
+    width: 70%;
+    padding: 15px 25px;
+    margin: 20px 0px;
+    border: none;
+    border-bottom: solid 2px blue;
+    outline: 0;
+    background-color: #dddddd;
+}
+span{
+    padding-right: 100px;
+}
+#spa{
+    padding-left: 130px;
+}
+#sign_up, #spa{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#check{
+    margin-right: 10px;
+}
+#sublog{
+    padding: 10px 140px;
+    margin: 25px 0 20px;
+    font-size: large;
+    background-color: blue;
+    color: #dddddd;
+    border: none;
+    border-radius: 25px;
+    
+    
+}
+                                    /*register page*/
+#fill{
+    text-align: center;
+    padding: 25px;
+}
+.main3{
+    width: 100%;
+}
+#reg{
+    background-image: url('https://i.postimg.cc/L5mdsnbH/getty-519658352-344676.jpg');
+    padding: 10px 0 400px 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 0 0 100px 100px;
+}
+#regform{
+    padding: 10px 90px;
+    margin-left: 300px;
+    justify-content: center;
+    height: 100%;
+    width: 700px;
+    
+    
+
+}
+
+#checkbox{
+    padding-left: 10px;
+}
+                         /*for mobile device*/
+@media only screen and (max-width: 600px){
+    *{
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: #dddddd;
+        
+    }
+    .main1{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 100%;   
+    }
+    .about{
+        background-image: url('https://i.postimg.cc/02MhQmMK/images-7.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: #fdf6f6;
+    }
+    header{
+        padding: 0px;
+        
+    }
+    
+    #navv{
+        display: flex;
+        position: fixed;
+        top: 0;
+        align-content: center;
+        justify-content: center;
+        margin-left: 0px; 
+        background-color: rgb(118, 118, 207); 
+        width: 100%; 
+        font-size: small;
+    }
+    
+    .a_tag{
+        padding: 5px 10px;
+        color: white;
+    }
+    .a_tag:hover{
+        background-color: crimson;
+        color: white;
+        padding: 5px 10px;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 45px;
+        margin-right: 50px;
+        
+    }
+   
+    .imgdiv{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    #my_pic {
+        width: 300px;
+        height: auto;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 5px solid black;
+        border-radius: 50px;
+        text-align: center;
+    }
+    .jodiv{
+        padding: 0px 0 0px; 
+        margin-left: 0px;
+        width: 100%;
+    }
+    .together{
+        width: 100%;
+    }
+    
+    .hobbies {
+        margin-top: 20px;
+    }
+    .lists{
+        display: flex;
+        flex-direction: column;
+        padding: 5px 0px;
+        justify-content: flex-start;
+        font-size: large;
+    }
+    
+    #names {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    #web {
+        font-size: larger;
+        margin-bottom: 20px;
+    }
+    #year {
+        font-size: large;
+        margin-bottom: 10px;
+        justify-content: space-evenly;
+    }
+    .prior {
+        margin-top: 20px;
+    }
+    .priorl{
+        list-style: square;
+    }
+    .skills {
+        margin-top: 20px;
+    }
+    .flex-container h2{
+        font-size: xx-large;
+        margin-bottom: 10px;
+    }
+    
+    
+    footer{
+        background-color: rgb(118, 118, 207);
+        color: white;
+        text-align: center;
+        font-size: x-small;
+        padding: 3px 5px;
+        border-radius: 20px 20px 0 0;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .fa {
+        
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin-right: -40px;
+      }
+      
+      .fa:hover {
+          opacity: 0.7;
+      }
+      
+      .fa-facebook {
+        color: white;
+      }
+      .fa-instagram {
+        color: white;
+      }
+      
+      .fa-twitter {
+        color: white;
+      }
+      .icon{
+          display: flex;
+          justify-content: center;
+      }
+    #im{
+        margin-top: 4rem;
+        margin-bottom: 0;
+    }
+    .button{
+        padding: 5px 10px;
+        font-size: large;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-top: 15px;
+        background-color: crimson;
+        color: #dddddd;
+        border: none;
+    }
+    
+    .button a{
+        background-color: crimson;
+        color: #dddddd;
+     }
+     
+        
+                                 /*contact me page- mobile 600*/
+    .contact {
+        background-image: url('https://i.postimg.cc/qBjy40mL/contact.jpg');
+        padding: 10px 0 20px 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .main4{
+        width: 100%;
+    }
+    #me{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 0 30px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    #note{
+        line-height: 1.5em;
+        height: 300px;
+        width: 500px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+
+    }
+    .converse{
+        height: 200px;
+        width: 500px;
+        margin-bottom: 80px;
+    }
+    #start{
+        text-align: center;
+        padding: 20px 0 0 0px;
+        font-size: large;
+    }
+       
+    #con{
+        color: white;
+        text-align: center;
+        padding: 80px 0 50px;
+        font-size: 1.5rem;
+        margin-top: -25px;
+    }
+    .concon{  
+        line-height: 1.5em;
+    }
+    .concon h3{
+        font-size: medium;
+    }
+    .concon h4{
+        font-size: smaller;
+    }
+    .concon p{
+        font-size: small;
+    }
+    #messcon{
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-bottom: 3px solid rgb(118, 118, 207);
+        background-color: #dddddd;
+        padding: 12px 20px;
+        margin: 8px 0;
+        outline: 0;
+    }
+    #conform{
+        width: 90%;
+        padding: 10px 0 0 0;
+        margin: 0 10px 0 0;
+    }
+    #inp_con{
+       width: 100%;
+       border: none;
+       border-bottom: 3px solid rgb(118, 118, 207);
+       background-color: #dddddd;
+       padding: 12px 0;
+       margin: 8px 0;
+       outline: 0;
+    }
+    #subcon{
+        border-radius: 5px;
+        font-size: small;
+        padding: 5px 10px;
+        background-color: rgb(118, 118, 207);
+        color: white;
+        border: none;
+        margin: 8px 0;
+    }
+   
+   
+    
+    
+                                         /*Log In page mobile 600*/
+    #please{
+        text-align: center;
+        margin-top: 100px;
+        font-size: large;
+    }
+    .main2{
+        width: 100%;
+        margin: 0 0px 0 0
+    }
+    #log{
+        background-color: rgb(5, 163, 190);
+        padding: 0px 0 100px 0;
+        border-radius: 0 0 50px 50px;
+    }
+    #logform{
+        padding: 30px 10px 0 25px;
+        margin-left: 0px;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+       
+        
+    }
+.l-form{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+    #Log_inp{
+        display: block; 
+        width: 90%;
+        padding: 15px 0px;
+        margin: 20px 0px;
+        border: none;
+        border-bottom: solid 2px blue;
+        outline: 0;
+        background-color: #dddddd;
+    }
+    span{
+        padding-right: 10px;
+        font-size: small;
+    }
+    #spa{
+        padding-left: 0px;
+    }
+    #sign_up, #spa{
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: small;
+        padding-left: 5px;
+    }
+    #check{
+        margin-right: 5px;
+    }
+    #sign_up{
+       
+    }
+    #sublog{
+        padding: 5px 5px;
+        margin: 25px 0 20px;
+        font-size: small;
+        background-color: blue;
+        color: #dddddd;
+        border: none;
+        border-radius: 5px;
+        
+        
+    }
+                                        /*register page- mobile 600*/
+    #fill{
+        text-align: center;
+        padding: 25px;
+    }
+    .main3{
+        width: 100%;
+    }
+    #reg{
+        background-image: url('https://i.postimg.cc/L5mdsnbH/getty-519658352-344676.jpg');
+        padding: 10px 0 200px 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: contain;
+        border-radius: 0 0 100px 100px;
+    }
+    #regform{
+        padding: 10px 30px;
+        margin-left: -10px;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 50px;   
+    
+    }
+    
+    #checkbox{
+        padding-left: 5px;
+        font-size: x-small;
+    }
+}
